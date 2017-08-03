@@ -1,0 +1,830 @@
+# Copyright (C) 2017 Catch Themes
+# This file is distributed under the GNU General Public License v3.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Essential Content Types\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-06-23 14:58+0545\n"
+"PO-Revision-Date: 2016-12-07 23:04-0500\n"
+"Last-Translator: Sakin Shrestha <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;esc_attr_e;esc_attr__;_nx;"
+"esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/class-essential-content-types-admin.php:152
+#: ../admin/class-essential-content-types-admin.php:153
+msgid "Essential Content Types"
+msgstr ""
+
+#: ../admin/class-essential-content-types-admin.php:167
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../admin/class-essential-content-types-admin.php:185
+msgid "Connection Error. Please try again."
+msgstr ""
+
+#: ../admin/class-featured-content.php:101
+msgid "Featured Content Items"
+msgstr ""
+
+#: ../admin/class-featured-content.php:103
+msgid "Featured Contents"
+msgstr ""
+
+#: ../admin/class-featured-content.php:104
+#: ../admin/class-featured-content.php:105
+#: ../admin/partials/dashboard-display.php:84
+msgid "Featured Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:106
+msgid "All Contents"
+msgstr ""
+
+#: ../admin/class-featured-content.php:107 ../admin/class-portfolio.php:234
+#: ../admin/class-testimonial.php:267
+msgid "Add New"
+msgstr ""
+
+#: ../admin/class-featured-content.php:108
+msgid "Add New Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:109
+msgid "Edit Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:110
+msgid "New Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:111
+msgid "View Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:112
+msgid "Search Contents"
+msgstr ""
+
+#: ../admin/class-featured-content.php:113
+msgid "No Contents found"
+msgstr ""
+
+#: ../admin/class-featured-content.php:114
+msgid "No Contents found in Trash"
+msgstr ""
+
+#: ../admin/class-featured-content.php:115
+msgid "Filter contents list"
+msgstr ""
+
+#: ../admin/class-featured-content.php:116
+msgid "Content list navigation"
+msgstr ""
+
+#: ../admin/class-featured-content.php:117
+msgid "Contents list"
+msgstr ""
+
+#: ../admin/class-featured-content.php:147
+#: ../admin/class-featured-content.php:149
+msgid "Content Types"
+msgstr ""
+
+#: ../admin/class-featured-content.php:148
+msgid "Content Type"
+msgstr ""
+
+#: ../admin/class-featured-content.php:150
+msgid "All Content Types"
+msgstr ""
+
+#: ../admin/class-featured-content.php:151
+msgid "Edit Content Type"
+msgstr ""
+
+#: ../admin/class-featured-content.php:152
+msgid "View Content Type"
+msgstr ""
+
+#: ../admin/class-featured-content.php:153
+msgid "Update Content Type"
+msgstr ""
+
+#: ../admin/class-featured-content.php:154
+msgid "Add New Content Type"
+msgstr ""
+
+#: ../admin/class-featured-content.php:155
+msgid "New Content Type Name"
+msgstr ""
+
+#: ../admin/class-featured-content.php:156
+msgid "Parent Content Type"
+msgstr ""
+
+#: ../admin/class-featured-content.php:157
+msgid "Parent Content Type:"
+msgstr ""
+
+#: ../admin/class-featured-content.php:158
+msgid "Search Content Types"
+msgstr ""
+
+#: ../admin/class-featured-content.php:159
+msgid "Content type list navigation"
+msgstr ""
+
+#: ../admin/class-featured-content.php:160
+msgid "Content type list"
+msgstr ""
+
+#: ../admin/class-featured-content.php:174
+#: ../admin/class-featured-content.php:176
+msgid "Content Tags"
+msgstr ""
+
+#: ../admin/class-featured-content.php:175
+msgid "Content Tag"
+msgstr ""
+
+#: ../admin/class-featured-content.php:177
+msgid "All Content Tags"
+msgstr ""
+
+#: ../admin/class-featured-content.php:178
+msgid "Edit Content Tag"
+msgstr ""
+
+#: ../admin/class-featured-content.php:179
+msgid "View Content Tag"
+msgstr ""
+
+#: ../admin/class-featured-content.php:180
+msgid "Update Content Tag"
+msgstr ""
+
+#: ../admin/class-featured-content.php:181
+msgid "Add New Content Tag"
+msgstr ""
+
+#: ../admin/class-featured-content.php:182
+msgid "New Content Tag Name"
+msgstr ""
+
+#: ../admin/class-featured-content.php:183
+msgid "Search Content Tags"
+msgstr ""
+
+#: ../admin/class-featured-content.php:184
+msgid "Popular Content Tags"
+msgstr ""
+
+#: ../admin/class-featured-content.php:185 ../admin/class-portfolio.php:313
+msgid "Separate tags with commas"
+msgstr ""
+
+#: ../admin/class-featured-content.php:186 ../admin/class-portfolio.php:314
+msgid "Add or remove tags"
+msgstr ""
+
+#: ../admin/class-featured-content.php:187 ../admin/class-portfolio.php:315
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: ../admin/class-featured-content.php:188 ../admin/class-portfolio.php:316
+msgid "No tags found."
+msgstr ""
+
+#: ../admin/class-featured-content.php:189
+msgid "Content tag list navigation"
+msgstr ""
+
+#: ../admin/class-featured-content.php:190
+msgid "Content tag list"
+msgstr ""
+
+#: ../admin/class-featured-content.php:210
+#, php-format
+msgid "Content updated. <a href=\"%s\">View item</a>"
+msgstr ""
+
+#: ../admin/class-featured-content.php:211 ../admin/class-portfolio.php:339
+#: ../admin/class-testimonial.php:313
+msgid "Custom field updated."
+msgstr ""
+
+#: ../admin/class-featured-content.php:212 ../admin/class-portfolio.php:340
+#: ../admin/class-testimonial.php:314
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../admin/class-featured-content.php:213
+msgid "Content updated."
+msgstr ""
+
+#: ../admin/class-featured-content.php:215
+#, php-format
+msgid "Content restored to revision from %s"
+msgstr ""
+
+#: ../admin/class-featured-content.php:216
+#, php-format
+msgid "Content published. <a href=\"%s\">View content</a>"
+msgstr ""
+
+#: ../admin/class-featured-content.php:217
+msgid "Content saved."
+msgstr ""
+
+#: ../admin/class-featured-content.php:218
+#, php-format
+msgid ""
+"Content submitted. <a target=\"_blank\" href=\"%s\">Preview content</a>"
+msgstr ""
+
+#: ../admin/class-featured-content.php:219
+#, php-format
+msgid ""
+"Content scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview content</a>"
+msgstr ""
+
+#: ../admin/class-featured-content.php:221 ../admin/class-portfolio.php:349
+#: ../admin/class-testimonial.php:323
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../admin/class-featured-content.php:222
+#, php-format
+msgid ""
+"Content item draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"content</a>"
+msgstr ""
+
+#: ../admin/class-featured-content.php:234
+msgid "Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:271
+msgid "ECT: Featured Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:276
+msgid "Contents"
+msgstr ""
+
+#: ../admin/class-featured-content.php:284
+msgid "Featured Content Archive Title"
+msgstr ""
+
+#: ../admin/class-featured-content.php:297
+msgid "Featured Content Archive Content"
+msgstr ""
+
+#: ../admin/class-featured-content.php:311
+msgid "Featured Content Archive Featured Image"
+msgstr ""
+
+#: ../admin/class-featured-content.php:555
+msgid ""
+"Your Featured Content Archive currently has no entries. You can start "
+"creating them on your dashboard."
+msgstr ""
+
+#: ../admin/class-featured-content.php:627 ../admin/class-portfolio.php:761
+msgid "Types"
+msgstr ""
+
+#: ../admin/class-featured-content.php:658 ../admin/class-portfolio.php:792
+msgid "Tags"
+msgstr ""
+
+#: ../admin/class-featured-content.php:684 ../admin/class-portfolio.php:818
+#, php-format
+msgid "<span>Author:</span> <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: ../admin/class-portfolio.php:97
+msgid "Portfolio Projects"
+msgstr ""
+
+#: ../admin/class-portfolio.php:126
+#, php-format
+msgid "Your theme supports <strong>%s</strong>"
+msgstr ""
+
+#: ../admin/class-portfolio.php:130
+msgid "Enable Portfolio Projects for this site."
+msgstr ""
+
+#: ../admin/class-portfolio.php:131 ../admin/class-testimonial.php:153
+msgid "Learn More"
+msgstr ""
+
+#: ../admin/class-portfolio.php:138
+#, php-format
+msgid "Portfolio pages display at most %1$s projects"
+msgstr ""
+
+#: ../admin/class-portfolio.php:228
+msgid "Portfolio Items"
+msgstr ""
+
+#: ../admin/class-portfolio.php:230 ../admin/class-portfolio.php:412
+msgid "Projects"
+msgstr ""
+
+#: ../admin/class-portfolio.php:231 ../admin/class-portfolio.php:362
+msgid "Project"
+msgstr ""
+
+#: ../admin/class-portfolio.php:232 ../admin/class-portfolio.php:405
+msgid "Portfolio"
+msgstr ""
+
+#: ../admin/class-portfolio.php:233
+msgid "All Projects"
+msgstr ""
+
+#: ../admin/class-portfolio.php:235
+msgid "Add New Project"
+msgstr ""
+
+#: ../admin/class-portfolio.php:236
+msgid "Edit Project"
+msgstr ""
+
+#: ../admin/class-portfolio.php:237
+msgid "New Project"
+msgstr ""
+
+#: ../admin/class-portfolio.php:238
+msgid "View Project"
+msgstr ""
+
+#: ../admin/class-portfolio.php:239
+msgid "Search Projects"
+msgstr ""
+
+#: ../admin/class-portfolio.php:240
+msgid "No Projects found"
+msgstr ""
+
+#: ../admin/class-portfolio.php:241
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: ../admin/class-portfolio.php:242
+msgid "Filter projects list"
+msgstr ""
+
+#: ../admin/class-portfolio.php:243
+msgid "Project list navigation"
+msgstr ""
+
+#: ../admin/class-portfolio.php:244
+msgid "Projects list"
+msgstr ""
+
+#: ../admin/class-portfolio.php:275 ../admin/class-portfolio.php:277
+msgid "Project Types"
+msgstr ""
+
+#: ../admin/class-portfolio.php:276
+msgid "Project Type"
+msgstr ""
+
+#: ../admin/class-portfolio.php:278
+msgid "All Project Types"
+msgstr ""
+
+#: ../admin/class-portfolio.php:279
+msgid "Edit Project Type"
+msgstr ""
+
+#: ../admin/class-portfolio.php:280
+msgid "View Project Type"
+msgstr ""
+
+#: ../admin/class-portfolio.php:281
+msgid "Update Project Type"
+msgstr ""
+
+#: ../admin/class-portfolio.php:282
+msgid "Add New Project Type"
+msgstr ""
+
+#: ../admin/class-portfolio.php:283
+msgid "New Project Type Name"
+msgstr ""
+
+#: ../admin/class-portfolio.php:284
+msgid "Parent Project Type"
+msgstr ""
+
+#: ../admin/class-portfolio.php:285
+msgid "Parent Project Type:"
+msgstr ""
+
+#: ../admin/class-portfolio.php:286
+msgid "Search Project Types"
+msgstr ""
+
+#: ../admin/class-portfolio.php:287
+msgid "Project type list navigation"
+msgstr ""
+
+#: ../admin/class-portfolio.php:288
+msgid "Project type list"
+msgstr ""
+
+#: ../admin/class-portfolio.php:302 ../admin/class-portfolio.php:304
+msgid "Project Tags"
+msgstr ""
+
+#: ../admin/class-portfolio.php:303
+msgid "Project Tag"
+msgstr ""
+
+#: ../admin/class-portfolio.php:305
+msgid "All Project Tags"
+msgstr ""
+
+#: ../admin/class-portfolio.php:306
+msgid "Edit Project Tag"
+msgstr ""
+
+#: ../admin/class-portfolio.php:307
+msgid "View Project Tag"
+msgstr ""
+
+#: ../admin/class-portfolio.php:308
+msgid "Update Project Tag"
+msgstr ""
+
+#: ../admin/class-portfolio.php:309
+msgid "Add New Project Tag"
+msgstr ""
+
+#: ../admin/class-portfolio.php:310
+msgid "New Project Tag Name"
+msgstr ""
+
+#: ../admin/class-portfolio.php:311
+msgid "Search Project Tags"
+msgstr ""
+
+#: ../admin/class-portfolio.php:312
+msgid "Popular Project Tags"
+msgstr ""
+
+#: ../admin/class-portfolio.php:317
+msgid "Project tag list navigation"
+msgstr ""
+
+#: ../admin/class-portfolio.php:318
+msgid "Project tag list"
+msgstr ""
+
+#: ../admin/class-portfolio.php:338
+#, php-format
+msgid "Project updated. <a href=\"%s\">View item</a>"
+msgstr ""
+
+#: ../admin/class-portfolio.php:341
+msgid "Project updated."
+msgstr ""
+
+#: ../admin/class-portfolio.php:343
+#, php-format
+msgid "Project restored to revision from %s"
+msgstr ""
+
+#: ../admin/class-portfolio.php:344
+#, php-format
+msgid "Project published. <a href=\"%s\">View project</a>"
+msgstr ""
+
+#: ../admin/class-portfolio.php:345
+msgid "Project saved."
+msgstr ""
+
+#: ../admin/class-portfolio.php:346
+#, php-format
+msgid ""
+"Project submitted. <a target=\"_blank\" href=\"%s\">Preview project</a>"
+msgstr ""
+
+#: ../admin/class-portfolio.php:347
+#, php-format
+msgid ""
+"Project scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview project</a>"
+msgstr ""
+
+#: ../admin/class-portfolio.php:350
+#, php-format
+msgid ""
+"Project item draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"project</a>"
+msgstr ""
+
+#: ../admin/class-portfolio.php:420
+msgid "Portfolio Archive Title"
+msgstr ""
+
+#: ../admin/class-portfolio.php:435
+msgid "Portfolio Archive Content"
+msgstr ""
+
+#: ../admin/class-portfolio.php:451
+msgid "Portfolio Archive Featured Image"
+msgstr ""
+
+#: ../admin/class-portfolio.php:689
+msgid ""
+"Your Portfolio Archive currently has no entries. You can start creating "
+"them on your dashboard."
+msgstr ""
+
+#: ../admin/class-testimonial.php:118 ../admin/class-testimonial.php:263
+#: ../admin/class-testimonial.php:265 ../admin/class-testimonial.php:429
+#: ../admin/class-testimonial.php:435
+#: ../admin/partials/dashboard-display.php:59
+msgid "Testimonials"
+msgstr ""
+
+#: ../admin/class-testimonial.php:148
+msgid "Your theme supports Testimonials"
+msgstr ""
+
+#: ../admin/class-testimonial.php:152
+msgid "Enable Testimonials for this site."
+msgstr ""
+
+#: ../admin/class-testimonial.php:161
+#, php-format
+msgid "Testimonial pages display at most %1$s testimonials"
+msgstr ""
+
+#: ../admin/class-testimonial.php:261
+msgid "Customer Testimonials"
+msgstr ""
+
+#: ../admin/class-testimonial.php:264
+msgid "Testimonial"
+msgstr ""
+
+#: ../admin/class-testimonial.php:266
+msgid "All Testimonials"
+msgstr ""
+
+#: ../admin/class-testimonial.php:268
+msgid "Add New Testimonial"
+msgstr ""
+
+#: ../admin/class-testimonial.php:269
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../admin/class-testimonial.php:270
+msgid "New Testimonial"
+msgstr ""
+
+#: ../admin/class-testimonial.php:271
+msgid "View Testimonial"
+msgstr ""
+
+#: ../admin/class-testimonial.php:272
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../admin/class-testimonial.php:273
+msgid "No Testimonials found"
+msgstr ""
+
+#: ../admin/class-testimonial.php:274
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: ../admin/class-testimonial.php:275
+msgid "Filter Testimonials list"
+msgstr ""
+
+#: ../admin/class-testimonial.php:276
+msgid "Testimonial list navigation"
+msgstr ""
+
+#: ../admin/class-testimonial.php:277
+msgid "Testimonials list"
+msgstr ""
+
+#: ../admin/class-testimonial.php:312
+#, php-format
+msgid "Testimonial updated. <a href=\"%s\">View testimonial</a>"
+msgstr ""
+
+#: ../admin/class-testimonial.php:315
+msgid "Testimonial updated."
+msgstr ""
+
+#: ../admin/class-testimonial.php:317
+#, php-format
+msgid "Testimonial restored to revision from %s"
+msgstr ""
+
+#: ../admin/class-testimonial.php:318
+#, php-format
+msgid "Testimonial published. <a href=\"%s\">View testimonial</a>"
+msgstr ""
+
+#: ../admin/class-testimonial.php:319
+msgid "Testimonial saved."
+msgstr ""
+
+#: ../admin/class-testimonial.php:320
+#, php-format
+msgid ""
+"Testimonial submitted. <a target=\"_blank\" href=\"%s\">Preview "
+"testimonial</a>"
+msgstr ""
+
+#: ../admin/class-testimonial.php:321
+#, php-format
+msgid ""
+"Testimonial scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Preview testimonial</a>"
+msgstr ""
+
+#: ../admin/class-testimonial.php:324
+#, php-format
+msgid ""
+"Testimonial draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"testimonial</a>"
+msgstr ""
+
+#: ../admin/class-testimonial.php:337
+msgid "Enter the customer's name here"
+msgstr ""
+
+#: ../admin/class-testimonial.php:346
+msgid "Customer Name"
+msgstr ""
+
+#: ../admin/class-testimonial.php:412
+msgid "Customize Testimonials Archive"
+msgstr ""
+
+#: ../admin/class-testimonial.php:413
+msgid "Customize"
+msgstr ""
+
+#: ../admin/class-testimonial.php:441
+msgid "Testimonial Archive Title"
+msgstr ""
+
+#: ../admin/class-testimonial.php:453
+msgid "Testimonial Archive Content"
+msgstr ""
+
+#: ../admin/class-testimonial.php:464
+msgid "Testimonial Archive Featured Image"
+msgstr ""
+
+#: ../admin/class-testimonial.php:617
+msgid ""
+"Your Testimonial Archive currently has no entries. You can start creating "
+"them on your dashboard."
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:25
+msgid ""
+"Essential Content Types allows you to feature the impressive content "
+"through different content/post types on your website just the way you want "
+"it. These content/post types are missed by the themes in WordPress Theme "
+"Directory as the feature falls more towards the plugins’ territory."
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:34
+msgid "Portfolios/Projects"
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:44
+msgid "Portfolio – Create and display your portfolio on your website."
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:46
+msgid ""
+"Once enabled, Portfolio Post Type options will appear on Dashboard Menu"
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:48
+#, php-format
+msgid "%1$sClick here%2$s to view Portfolio Archive Options."
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:69
+msgid "Testimonials – Add customer testimonials to your website."
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:71
+msgid ""
+"Once enabled, Testimonials Post Type options will appear on Dashboard Menu"
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:73
+#, php-format
+msgid "%1$sClick here%2$s to view Testimonial Achive Options."
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:95
+msgid ""
+"Featured Content – Display the content you want as featured content to "
+"attract visitors' attention."
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:97
+msgid ""
+"Once enabled, Featured Content Post Type options will appear on Dashboard "
+"Menu"
+msgstr ""
+
+#: ../admin/partials/dashboard-display.php:99
+#, php-format
+msgid "%1$sClick here%2$s to view Featured Content Archive Options."
+msgstr ""
+
+#: ../admin/partials/footer.php:22
+msgid "Donate"
+msgstr ""
+
+#: ../admin/partials/footer.php:26
+msgid "Support Forum"
+msgstr ""
+
+#: ../admin/partials/footer.php:30
+msgid "Plugin Details"
+msgstr ""
+
+#: ../admin/partials/footer.php:34
+msgid "Facebook"
+msgstr ""
+
+#: ../admin/partials/footer.php:38
+msgid "Twitter"
+msgstr ""
+
+#: ../admin/partials/footer.php:42
+msgid "5 Star Rating"
+msgstr ""
+
+#: ../admin/partials/other-products.php:21
+#: ../admin/partials/other-products.php:25
+msgid "View Premium Themes"
+msgstr ""
+
+#: ../admin/partials/other-products.php:22
+#: ../admin/partials/other-products.php:25
+msgid "Premium Themes"
+msgstr ""
+
+#: ../admin/partials/other-products.php:27
+#: ../admin/partials/other-products.php:51
+msgid "View Themes"
+msgstr ""
+
+#: ../admin/partials/other-products.php:33
+#: ../admin/partials/other-products.php:39
+msgid "View Plugins"
+msgstr ""
+
+#: ../admin/partials/other-products.php:34
+#: ../admin/partials/other-products.php:37
+msgid "Free Plugins"
+msgstr ""
+
+#: ../admin/partials/other-products.php:37
+msgid "View Free Plugins"
+msgstr ""
+
+#: ../admin/partials/other-products.php:45
+#: ../admin/partials/other-products.php:49
+msgid "View Free Themes"
+msgstr ""
+
+#: ../admin/partials/other-products.php:46
+#: ../admin/partials/other-products.php:49
+msgid "Free Themes"
+msgstr ""

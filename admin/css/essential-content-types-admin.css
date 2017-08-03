@@ -1,0 +1,728 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Typography
+# Layout
+# Clearing
+# Lists
+# Media
+# Links
+# Header
+# Content
+# Toggle Switch
+# Other Products
+# Footer
+# Media Queries
+  ## >= 320px
+  ## >= 768px
+  ## >= 1024px
+  ## >= 1280px
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+.ect-main,
+.ect-main button,
+.ect-main input,
+.ect-main select,
+.ect-main textarea,
+.ect-main p {
+  color: #1a1a1a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.ect-main h1,
+.ect-main h2,
+.ect-main h3,
+.ect-main h4,
+.ect-main h5,
+.ect-main h6 {
+  clear: both;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+}
+
+.ect-main h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+
+.ect-main h2 {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.ect-main h3 {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+
+.ect-main h4 {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.ect-main h5 {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.ect-main h6 {
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+
+.ect-main p {
+  margin:  0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+.ect-main  {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ect-main *,
+.ect-main *:before,
+.ect-main *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.ect-main * {
+  padding: 0;
+  margin: 0;
+}
+
+.ect-main {
+  background-color: #fff;
+}
+
+.ect-main .container {
+  padding: 20px 20px 0;
+}
+
+.ect-main #dashboard {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+# Clearing
+--------------------------------------------------------------*/
+.ect-main .clear:before,
+.ect-main .clear:after {
+  content: "";
+  display: table;
+}
+
+.ect-main .clear:after {
+  clear: both;
+}
+
+/*--------------------------------------------------------------
+# Lists
+--------------------------------------------------------------*/
+.ect-main .ul,
+.ect-main ol {
+  margin: 0 0 1.5em 2em;
+  padding: 0;
+}
+
+.ect-main li {
+  margin: 0;
+}
+
+.ect-main ul {
+  list-style: disc;
+}
+
+.ect-main ol {
+  list-style: decimal;
+}
+
+.ect-main li > ul,
+.ect-main li > ol {
+  margin-top: 0.55em;
+  margin-left: 1.5em;
+  margin-bottom: 0;
+}
+
+.ect-main li {
+  margin-bottom: 0.55em;
+}
+
+.ect-main dt {
+  font-weight: 700;
+}
+
+.ect-main dd {
+  margin: 0 1.5em 1.5em;
+}
+
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.ect-main img {
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: 100%; /* Adhere to container width. */
+  vertical-align: middle;
+}
+
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+.ect-main a {
+  color: #0085c3;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ect-main a:hover,
+.ect-main a:focus,
+.ect-main a:active {
+  color: #444;
+  text-decoration: underline;
+}
+
+.ect-main a:focus {
+  outline: thin dotted;
+}
+
+.ect-main a:hover,
+.ect-main a:active {
+  outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.ect-main #masthead {
+  background: url("../images/header_1680x394.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ect-main #masthead .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+  flex-flow : column wrap;
+}
+
+.ect-main #plugin-description {
+  margin: 0 auto;
+  max-width: 960px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ect-main #plugin-description p:last-child {
+  margin-bottom: 0;
+}
+
+.ect-main #site-branding {
+  display: block;
+  order: 1;
+  padding: 30px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.ect-main .site-title {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-transform: capitalize; 
+}
+
+.ect-main .site-title a {
+  color: #0085c3;
+}
+
+.ect-main .site-title a:hover,
+.ect-main .site-title a:focus {
+  text-decoration: none;
+}
+
+.ect-main .site-title-additional {
+  color: #006ea4;
+}
+
+.ect-main .setting {
+  padding: 0 7px;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.ect-main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 680px;
+}
+
+.ect-main .module-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  -webkit-box-pack: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content:flex-start;
+}
+
+.ect-main .module-header {
+  background-color: #0685c3 ;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  margin: -2px -2px 0;
+  padding: 11px 25px;
+  position: relative;
+ } 
+
+.ect-main .module-header.active {
+  background-color: #0685c3;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.ect-main .module-header.inactive {
+  background-color:#00618d;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.ect-main .module-title,
+.ect-main .other-catchthemes-products .module-content {
+  color: #fff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.ect-main .catch-modules { 
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  border: 2px solid #ccc;
+  border-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  margin-bottom: 20px;
+}
+
+.ect-main .catch-module-long {
+  background-color: #f9f9f9;
+  border-radius: 3px;
+  border: 2px solid #ccc;
+  border-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column wrap;
+  flex-flow:column wrap;
+}
+
+.ect-main .module-content {
+  padding: 15px;
+}
+
+.ect-main .module-content p:last-child {
+  margin-bottom: 0;
+}
+
+.ect-main #main-nav .dashicons {
+  line-height: 2.7;
+}
+
+/*--------------------------------------------------------------
+# Toggle Switch
+--------------------------------------------------------------*/
+.ect-main .switch {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+     -moz-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;  
+  position: relative;
+  float: none;
+  right: 0;
+}
+
+.ect-main .module-title.active {
+  background-color: #0085c3;
+}
+
+.ect-main .switch label {
+  background-color: #fff;
+  border-radius: 11px;
+  cursor: pointer;
+  height: 21px;
+  left:0;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.ect-main .switch input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.ect-main .switch label:after {
+  background-color: #00618d;
+  border-radius: 100%;
+  content: '';
+  height: 17px;
+  left: 2px;
+  position: absolute;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  top: 2px;
+  width: 17px;
+}
+
+.ect-main .switch input[type="checkbox"]:checked + label:after   {
+  left: 22px;
+  background-color: #0085c3;
+}
+
+.ect-main .loader {
+  border: 5px solid #00618d;
+  border-radius: 50%;
+  border-top: 2px solid transparent;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  display: none;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*--------------------------------------------------------------
+# Other Products
+--------------------------------------------------------------*/
+.ect-main .other-catchthemes-products {
+  background-color: #f9f9f9;
+  clear: both;
+  display: block;
+}
+
+.ect-main .other-catchthemes-products .module-content {
+  border: none;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.ect-main .other-catchthemes-products .catch-modules {
+  background-color: #fff;
+  border: 1px solid #dedede;
+}
+
+.ect-main .other-catchthemes-products .catch-modules a {
+  color: #444;
+  display: block;
+  padding: 1em;
+}
+
+.ect-main .other-catchthemes-products .catch-modules a:hover,
+.ect-main .other-catchthemes-products .catch-modules a:focus {
+  color: #0085c3;
+  text-decoration: none;
+}
+
+.ect-main .other-catchthemes-products .catch-modules .more-details {
+  background-color: #00618d;
+  color: #fff;
+  padding: 16px;
+  position: absolute;
+  left: 25%;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  right: 25%;
+  text-align: center;
+  top: 35%;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  transition:         opacity 0.1s ease-in-out;
+}
+
+.ect-main .other-catchthemes-products .module-content:hover .more-details,
+.ect-main .other-catchthemes-products .module-content:focus .more-details {
+  color: #fff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
+  text-decoration: none;
+}
+
+.ect-main .other-catchthemes-products .catch-modules .modules-thumbnail {
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.ect-main .footer-navigation {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.ect-main .menu-footer-container {
+  padding: 10px 20px 30px;
+}
+
+.ect-main .footer-navigation ul {
+  list-style: none;
+}
+
+.ect-main .footer-navigation a {
+  color: #444;
+  text-transform: capitalize;
+  padding: 10px 8px 10px 6px;
+  display: block;
+}
+
+.ect-main .footer-navigation a:hover,
+.ect-main .footer-navigation a:focus {
+  color: #0085c3;
+  text-decoration: none;
+}
+
+.ect-main .site-footer .menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.ect-main .site-footer .menu-footer li {
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## >= 320px
+--------------------------------------------------------------*/
+@media screen and (min-width: 20em) {
+  .ect-main .module-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+  }
+
+  .ect-main .module-title {
+    margin-bottom: 0;
+  }
+
+  .ect-main .switch {
+    margin-right: 25px;
+  }
+}
+
+/*--------------------------------------------------------------
+## >= 768px
+--------------------------------------------------------------*/
+@media screen and (min-width: 48em) { 
+  .ect-main .container { 
+    padding: 30px;
+    max-width: 100%;
+  }
+
+  .ect-main .module-container {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+  }
+
+  .ect-main #plugin-description {
+    padding-bottom: 30px;
+  }
+
+  .ect-main .catch-modules {
+    flex: 0 1 48.5%;
+  }
+
+  .ect-main .module-content {
+    padding: 20px;
+  }
+
+  .ect-main .menu-footer-container {
+    padding: 10px 40px 30px;
+  } 
+}
+
+/*--------------------------------------------------------------
+## >= 1024px
+--------------------------------------------------------------*/
+@media screen and (min-width: 64em) {
+  .ect-main h1 {
+    font-size: 32px;
+    font-size: 2rem;
+  }
+
+  .ect-main h2 {
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+
+  .ect-main #site-branding {
+    padding: 80px 40px;
+  }
+
+  .ect-main .module-container {
+    -webkit-box-pack: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+  }
+
+  .ect-main .module-container .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: flex-start;
+    -ms-flex-pack: flex-start;
+    justify-content: flex-start;
+  }
+
+  .ect-main .catch-modules {
+    -ms-flex: 31.33%;
+    -webkit-flex: 31.33%;
+    flex: 0 1 31.33%;
+    margin: 0 1%;
+  }
+
+  .ect-main .menu-footer-container {
+    padding: 25px 40px;
+  } 
+
+  .ect-main .footer-navigation a {
+    padding: 10px;
+  }
+}
+
+/*--------------------------------------------------------------
+## >= 1280px
+--------------------------------------------------------------*/
+@media screen and (min-width: 80em) {
+  .ect-main,
+  .ect-main button,
+  .ect-main input,
+  .ect-main select,
+  .ect-main textarea,
+  .ect-main p {
+    font-size: 18px;
+    font-size: 1.1875rem;
+  }
+
+  .ect-main h1 {
+    font-size: 48px;
+    font-size: 3rem;
+  }
+
+  .ect-main h2 {
+    font-size: 24px;
+    font-size: 1.5rem;
+  }
+
+  .ect-main h3 {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+
+  .ect-main .container {
+    padding: 60px 40px;
+  }
+
+  .ect-main #plugin-description {
+    padding-bottom: 40px;
+  }
+
+  .ect-main #site-branding {
+    padding: 100px 50px;
+  }
+
+  .ect-main .module-content {
+    padding: 25px;
+  }
+
+  .ect-main .footer-navigation a {
+    padding: 10px 10px 10px 13px;
+  }
+}
